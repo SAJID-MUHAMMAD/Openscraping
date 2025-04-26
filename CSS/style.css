@@ -731,10 +731,7 @@ p {
 }
 
 /* ====================================================================== SUPPORT END============================================================ */
-/* ====================================================================== SCRAPER START============================================================ */
-/* ====================================================================== SCRAPER END============================================================ */
-/* ====================================================================== SCRAPER START============================================================ */
-/* ====================================================================== SCRAPER END============================================================ */
+
 /* ====================================================================== FAQ START============================================================ */
 #FAQ {
     padding: 120px 0;
@@ -816,6 +813,10 @@ p {
 
 /* ====================================================================== FAQ END============================================================ */
 /* ====================================================================== CONTACT SALE START============================================================ */
+#contact_sale {
+    margin-bottom: 100px;
+}
+
 .contact_sale_title {
     font-size: 40px;
     font-weight: 600;
@@ -856,3 +857,189 @@ p {
 }
 
 /* ====================================================================== CONTACT SALE END============================================================ */
+/* ====================================================================== NEWSLATTER START============================================================ */
+#newsletter {
+    padding: 60px 0;
+    background-color: rgb(0, 221, 151, 10%);
+}
+
+.newslatter_title {
+    font-size: 30px;
+    font-weight: 700;
+    color: #000000;
+}
+
+.newslatter_deatils {
+    font-size: 16px;
+    font-weight: 400;
+    color: #828282;
+    margin: 16px 0;
+}
+
+.newsletter_privacy {
+    background-color: rgba(235, 87, 87, 10%);
+    border-radius: 50px;
+    padding: 4px 15px;
+    color: #EB5757;
+    font-size: 15px;
+    font-weight: 400;
+    text-align: center;
+}
+
+.newslatter_right {
+    width: 535px;
+    margin-left: auto;
+    border-left: 1px solid #00DD97;
+    padding-left: 40px;
+}
+
+.newsletter_input_label {
+    font-size: 16px;
+    font-weight: 500;
+    color: #000000;
+}
+
+.newsletter_input {
+    border-radius: 10px;
+    padding: 20px;
+    display: block;
+    width: 100%;
+    border: 1px solid #BDBDBD;
+    margin: 16px 0 24px;
+}
+
+.newsletter_botn {
+    background-color: #00DD97;
+    color: #130F35;
+    border-radius: 90px;
+    padding: 20px 0;
+    font-size: 20px;
+    font-weight: 500;
+    width: 100%;
+    border: none;
+}
+
+
+
+/* ====================================================================== NEWSLATTER END============================================================ */
+/* ====================================================================== FOOTER START============================================================ */
+.footer {
+    background-color: #121130;
+    color: white;
+    padding: 4rem 0 2rem;
+}
+
+.footer-logo {
+    background-color: white;
+    padding: 15px;
+    border-radius: 10px;
+    display: inline-block;
+    margin-bottom: 20px;
+}
+
+.footer-logo h3 {
+    color: #121130;
+    margin: 0;
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+.footer-description {
+    color: #ccc;
+    font-size: 0.9rem;
+    margin-bottom: 20px;
+    max-width: 300px;
+}
+
+.footer-social {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 30px;
+}
+
+.social-icon {
+    width: 36px;
+    height: 36px;
+    border-radius: 50%;
+    border: 1px solid #444;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    transition: all 0.3s;
+}
+
+.social-icon:hover {
+    background-color: #00d084;
+    border-color: #00d084;
+    color: white;
+}
+
+.footer-links h4 {
+    font-size: 1.1rem;
+    margin-bottom: 20px;
+    font-weight: 600;
+}
+
+.footer-links ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.footer-links li {
+    margin-bottom: 12px;
+}
+
+.footer-links a {
+    color: #ccc;
+    text-decoration: none;
+    transition: color 0.3s;
+    font-size: 0.9rem;
+}
+
+.footer-links a:hover {
+    color: #00d084;
+}
+
+.footer-cta {
+    background-color: #00d084;
+    border-radius: 10px;
+    padding: 25px;
+    height: 100%;
+}
+
+.footer-cta h3 {
+    font-size: 1.5rem;
+    margin-bottom: 15px;
+    color: #121130;
+}
+
+.footer-cta-btn {
+    background-color: #121130;
+    color: white;
+    border: none;
+    border-radius: 25px;
+    padding: 10px 20px;
+    font-weight: 500;
+    transition: all 0.3s;
+}
+
+.footer-cta-btn:hover {
+    background-color: #1a1a40;
+    color: white;
+}
+
+.footer-divider {
+    height: 1px;
+    background-color: #333;
+    margin: 30px 0 20px;
+}
+
+.footer-copyright {
+    color: #888;
+    font-size: 0.85rem;
+    text-align: center;
+}
+
+/* ====================================================================== FOOTER END============================================================ */
